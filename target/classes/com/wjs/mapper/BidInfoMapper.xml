@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjs.mapper.BidInfoMapper">
+
+    <select id="findAll" resultType="com.wjs.entity.B_Bid_Info">
+        select * from b_bid_info ;
+    </select>
+</mapper>
